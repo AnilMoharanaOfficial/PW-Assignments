@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  font-family: "Merriweather", serif;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./assets/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* filter: blur(1px); */
+}
+
+/****
+~HEADER~
+****/
+
+header {
+  padding: 25px 10%;
+}
+
+/* Nav */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 61px;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+nav ul > li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #ffc133;
+}
+
+a:hover {
+  /* text-decoration: underline; */
+  font-weight: 600;
+}
+
+.nav-btn {
+  background-color: #ff515f;
+  color: #ffffff;
+  border: none;
+  padding: 10px 27px;
+  border-radius: 3%;
+  font-weight: 500;
+  font-size: 18px;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.nav-btn:hover {
+  background-color: #b34d55;
+  color: #ffffff;
+  border-radius: 3%;
+  font-weight: 600;
+}
+
+/****
+~HERO SECTION~
+****/
+
+.hero-section {
+  text-align: center;
+  margin-bottom: 119%;
+  margin: 4% auto;
+  max-width: 1154;
+}
+
+.hero-heading {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+  color: #ffc233;
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 105px;
+  line-height: 115px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.hero-btn {
+  padding: 24px 55px;
+  margin-top: 64px;
+  border: none;
+  border-radius: 3px;
+  background-color: #ff515f;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  cursor: pointer;
+}
+
+.hero-btn:hover {
+  background-color: #b34d55;
+  color: #ffffff;
+  border-radius: 3%;
+}
+
+.scroll-btn {
+  position: absolute;
+  bottom: 20px;
+  right: 40px;
+  cursor: pointer;
+}
