@@ -1,0 +1,49 @@
+body {
+  background-color: #7fffd4;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 1440px) {
+  body {
+    background-color: #008000;
+  }
+
+  h1 {
+    color: #f0f8ff;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    background-color: #ef9609;
+  }
+
+  h1 {
+    color: #f0f8ff;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: #09ebef;
+  }
+
+  h1 {
+    color: #000810;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  body {
+    background-color: #6d0505;
+  }
+
+  h1 {
+    color: #f3f3f4;
+  }
+}
