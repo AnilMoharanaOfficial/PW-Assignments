@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.879);
+  /* width: 100vw; */
+  height: 100vh;
+}
+
+.container {
+  margin: 1rem 1.5rem 1rem 1.5rem;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  color: #ffffff;
+}
+
+h3 {
+  color: #ffffff;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  text-decoration: underline;
+  text-decoration-color: #0033ff;
+}
+
+/* HEADER START HERE */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  & .fa-bars {
+    color: rgb(255, 255, 255);
+    display: none;
+  }
+
+  & ul {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: azure;
+    gap: 0.6rem;
+    cursor: pointer;
+  }
+
+  & #active-nav {
+    background-color: rgb(75, 37, 230);
+    padding: 0.2rem 0.4rem 0.2rem 0.4rem;
+    border-radius: 0.4rem;
+    -webkit-border-radius: 0.4rem;
+    -moz-border-radius: 0.4rem;
+    -ms-border-radius: 0.4rem;
+    -o-border-radius: 0.4rem;
+  }
+}
+/* HEADER END HERE */
+
+/* HERO SECTION START HERE */
+
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  & .hero-content {
+    font-size: 30px;
+    line-height: 2.5rem;
+
+    & span {
+      color: bisque;
+    }
+  }
+
+  & .hero-img {
+    height: 400px;
+  }
+}
+
+/* HERO SECTION END HERE */
+
+/* CONTAINT START  */
+
+main {
+  margin-top: 4rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+
+  & .projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  & .project-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    flex-basis: 50%;
+  }
+
+  & .project-img {
+    height: 300px;
+  }
+}
+
+/* Footer Start Here */
+
+footer {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+
+  & .social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem;
+    color: #ffffff;
+  }
+}
+
+/* MEDIA QUERY START HERE */
+@media screen and (max-width: 480px) {
+  header {
+    & .fa-bars {
+      display: block;
+      cursor: pointer;
+    }
+
+    & ul {
+      display: none;
+    }
+  }
+
+  /* HERO SECTION START HERE */
+  .hero-section {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  & .hero-content {
+    font-size: 30px;
+    line-height: 2.5rem;
+    text-align: center;
+  }
+
+  & .hero-img {
+    max-width: 100%;
+    height: auto;
+  }
+}
