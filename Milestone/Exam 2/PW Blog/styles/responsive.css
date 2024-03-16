@@ -1,0 +1,44 @@
+@media screen and (max-width: 480px) {
+  /* -------------------------- */
+  /* DEFAULT STYLE */
+  .box-container {
+    margin: 6rem 0.9rem 3rem 0.9rem;
+  }
+
+  header {
+    padding: 0.8rem 0.9rem 0.8rem 0.9rem;
+  }
+
+  main {
+    flex-wrap: wrap;
+    & .blog-posts {
+      width: 90vh;
+    }
+  }
+
+  .close-modal {
+    position: absolute;
+    top: 0.1rem;
+    right: 0.1rem;
+    font-size: 2rem;
+    color: #070101;
+    cursor: pointer;
+    border: none;
+    background: none;
+  }
+
+  .modal {
+    width: 91%;
+  }
+
+  form {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  input {
+    padding: 0.9 5rem 0.9rem 5rem;
+  }
+}

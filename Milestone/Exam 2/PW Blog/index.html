@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PWSkills Blog</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/responsive.css" />
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="./assets/Physics_wallah_logo.jpg"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <!-- HEADER START HERE -->
+    <header>
+      <img src="./assets/pwSkills-header-img.svg" alt="PWSkills Header Image" />
+      <button class="create-btn">
+        Write <i class="fa-regular fa-pen-to-square"></i>
+      </button>
+    </header>
+    <!-- HEADER END HERE -->
+
+    <!-- POST CONTAINER START HERE -->
+    <main class="box-container blog-container"></main>
+    <!-- POST CONTAINER END HERE -->
+
+    <!-- CREATE POST -->
+    <div class="modal hidden">
+      <button class="close-modal">&times;</button>
+      <form class="create-blog-form">
+        <input type="text" id="imgUrl" placeholder="Enter Blog Image URL:" />
+        <input type="text" id="title" placeholder="Enter Blog Title:" />
+        <input
+          type="text"
+          id="description"
+          placeholder="Enter Blog description:"
+        />
+        <textarea id="write" placeholder="Write..."></textarea>
+        <button type="submit" class="add-blog-btn">Add Blog</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <script
+      src="https://kit.fontawesome.com/b90bc8d1f6.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script/script.js"></script>
+  </body>
+</html>
