@@ -1,0 +1,3 @@
+﻿
+
+Node.js is a platform that utilizes JavaScript and is primarily employed for developing web applications that are highly focused o n input/output operations, including but not limited to chat applications and multimedia streaming websites. The platform is const ructed using Google Chrome's V8 JavaScript engine. A web application is a type of software that executes on a server and is displa yed by a client's browser that obtains all the application's resources over the internet.: PW Skill: PW Skill: PW Skill: PW Skill: PW Skill: PW Skill
