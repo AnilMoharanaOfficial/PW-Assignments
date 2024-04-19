@@ -1,8 +1,7 @@
 import mongoose from "mongoose";
 
 const database =
-  process.env.DATABASE_URI ||
-  "mongodb+srv://anilmoharana:BiX6IVWdcVmM60vc@cluster0.wmbnw45.mongodb.net/Crud";
+  process.env.DATABASE_URI
 
 const connectToDB = async () => {
   try {
